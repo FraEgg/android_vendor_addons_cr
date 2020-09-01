@@ -17,7 +17,7 @@
 <resources>
     <integer-array name="fod_icon_resources">
         <item>@drawable/fod_icon_default</item>
-        <item>@drawable/fod_icon_crdroid</item>
+        <item>@drawable/fod_icon_luis</item>
         <item>@drawable/fod_icon_default_2</item>
         <item>@drawable/fod_icon_default_3</item>
         <item>@drawable/fod_icon_default_4</item>
@@ -38,6 +38,7 @@
         <item>@drawable/fod_icon_spiral_blue</item>
         <item>@drawable/fod_icon_sun_metro</item>
         <item>@drawable/fod_icon_default_1</item>
+		<item>@drawable/fod_icon_crdroid</item>
         <item>@drawable/fod_icon_invisible</item>
     </integer-array>
 </resources>
