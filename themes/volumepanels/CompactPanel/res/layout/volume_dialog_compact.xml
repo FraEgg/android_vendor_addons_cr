@@ -24,7 +24,8 @@
     android:layout_gravity="top|right"
     android:background="@android:color/transparent"
     android:clipToPadding="false"
-    android:clipChildren="false">
+    android:clipChildren="false"
+    android:theme="@style/qs_theme">
 
     <!-- right-aligned to be physically near volume button -->
     <LinearLayout
@@ -159,7 +160,7 @@
                         android:layout_height="match_parent"
                         android:scaleType="fitCenter"
                         android:padding="@dimen/volume_dialog_ringer_icon_padding"
-                        android:tint="?android:attr/colorAccent"
+                        android:tint="@color/accent_tint_color_selector"
                         android:layout_gravity="center"
                         android:soundEffectsEnabled="false" />
 
